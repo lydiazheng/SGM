@@ -1,6 +1,6 @@
 # Sequence Generation Model for Multi-label Classification
 - This is the code for our paper *SGM: Sequence Generation Model for Multi-label Classification* [[pdf]](https://arxiv.org/abs/1806.04822)
-- Be careful: the provided code is based on the RCV1-V2 dataset. If you need to run the code on other datasets, please correspondly modify all program statements that relate to the specific name of the dataset.
+- Be careful: the provided code bases on the RCV1-V2 dataset. If you need to run the code on other datasets, please correspondingly modify all program statements that relate to the specific name of the dataset.
 
 ***********************************************************
 
@@ -20,7 +20,7 @@ Two datasets are available at https://drive.google.com/file/d/18-JOCIj9v5bZCrn9C
 ***************************************************************
 
 ## Reproducibility
-We provide the pretrained checkpoints of the SGM model and the SGM+GE model on the RCV1-V2 dataset to help you to reproduce our reported experimental results. The detailed reproduction steps are as follows:
+We provide the pre-trained checkpoints of the SGM model and the SGM+GE model on the RCV1-V2 dataset to help you to reproduce our reported experimental results. The detailed reproduction steps are as follows:
 
 - Please download the RCV1-V2 dataset and checkpoints first by clicking on the link provided above, then put them in the folder *./data/data/*
 - Preprocessing: ```python3 preprocess.py ```
